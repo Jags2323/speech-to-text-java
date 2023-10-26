@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio File Upload</title>
+</head>
+<body>
+<form method="post" action="/upload-and-transcribe" enctype="multipart/form-data">
+    <input type="file" name="audioFile">
+    <button type="submit">Upload and Transcribe</button>
+</form>
+</body>
+</html>
